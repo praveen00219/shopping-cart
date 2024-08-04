@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly-text-3 : Shopping Cart</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/assets/styles.css">
+
+</head>
+
+<body>
+    <div class="container flex gap-5 justify-around my-20">
+        <div class="left-box px-3 py-4" id="product-list">
+            <h2 class="text-2xl font-semibold text-center">Products</h2>
+            <div id="products"></div>
+        </div>
+        <div class="right-box px-3 py-4 flex flex-col justify-between" id="cart">
+            <div>
+                <h2 class="text-2xl font-semibold text-center mb-5">Cart</h2>
+                <div id="cart-products">No Product added to the cart</div>
+            </div>
+            <h3 class="mt-5 bg-gray-500 shadow-lg text-white font-bold flex justify-between gap-10 py-2 px-3">Total
+                Price:
+                $<span id="total-price">0</span></h3>
+        </div>
+    </div>
+
+    <script src="/assets/script.js"></script>
+</body>
+
+</html>

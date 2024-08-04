@@ -1,0 +1,13 @@
+.left-box,
+.right-box {
+  height: 40vh;
+  border: 6px solid #c5c5c5;
+}
+
+.left-box {
+  width: 40%;
+}
+
+.product {
+  margin-bottom: 10px;
+}
